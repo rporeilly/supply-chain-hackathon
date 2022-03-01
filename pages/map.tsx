@@ -1,23 +1,21 @@
 import { Title, Text, Container, SimpleGrid, Image, Space, Center } from '@mantine/core';
 import Link from 'next/link';
+import Layout from '../components/layout';
 
 export default function ResultsPage() {
   return (
-    <>
+    <Layout>
       <SimpleGrid cols={1}>
         <Container>
-          <Title sx={{ fontSize: 70, fontWeight: 900, letterSpacing: -2 }} align="center" mt={100}>
+          <Title sx={{ fontSize: 70, fontWeight: 900, letterSpacing: -2 }} align="center" mb={30} mt={30}>
             <Text inherit variant="gradient" component="span">
               Map
             </Text>
           </Title>
           <Container>
             <Image
-              width={800}
-              height={400}
-              src={null}
-              alt="With default placeholder"
-              withPlaceholder
+              radius="md"
+              src="map-example.png"
             />
           </Container>
           <Space h="md" />
@@ -28,6 +26,6 @@ export default function ResultsPage() {
           </Center>
         </Container>
       </SimpleGrid>
-    </>
+    </Layout>
   );
 }

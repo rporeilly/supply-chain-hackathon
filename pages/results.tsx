@@ -1,12 +1,13 @@
 import { Title, Space, Text, Button, Container, SimpleGrid, Image, Center } from '@mantine/core';
 import Link from 'next/link';
+import Layout from '../components/layout';
 
 export default function ResultsPage() {
   return (
-    <>
+    <Layout>
       <SimpleGrid cols={1}>
         <Container>
-        <Title sx={{ fontSize: 70, fontWeight: 900, letterSpacing: -2 }} align="center" mt={100}>
+        <Title sx={{ fontSize: 70, fontWeight: 900, letterSpacing: -2 }} align="center" mt={30}>
           <Text inherit variant="gradient" component="span">
             Live results
           </Text>
@@ -28,6 +29,6 @@ export default function ResultsPage() {
           </Center>
         </Container>
       </SimpleGrid>
-    </>
+    </Layout>
   );
 }
