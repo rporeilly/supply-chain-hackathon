@@ -9,7 +9,7 @@ export default function ResultsPage() {
         <Container>
           <Title sx={{ fontSize: 70, fontWeight: 900, letterSpacing: -2 }} align="center" mb={30} mt={30}>
             <Text inherit variant="gradient" component="span">
-              Map
+              In Transit Tracking
             </Text>
           </Title>
           <Container>
