@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <Layout>
       <SimpleGrid cols={1}>
-        <Container sx={{ minHeight: '600px' }}>
+        <Container sx={{ minHeight: '500px' }}>
           <Image
             radius="md"
             src="supply-chain.png"
