@@ -16,9 +16,9 @@ export default function HomePage() {
             src="supply-chain.png"
             fit="contain"
           />
-          <Title sx={{ fontSize: 70, fontWeight: 900, letterSpacing: -2 }} align="center" mt={30}>
+          <Title sx={{ fontSize: 60, fontWeight: 900, letterSpacing: -2 }} align="center" mt={30}>
             <Text inherit variant="gradient" component="span">
-              Product Tracker
+              Moving from Point A to Point B
             </Text>
           </Title>
           <Title sx={{ fontSize: 20, fontWeight: 300 }} align="center" mt={10}>
