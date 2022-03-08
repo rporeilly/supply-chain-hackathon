@@ -20,7 +20,7 @@ export default function ResultsPage() {
           <Space h="lg" />
           <Center>
             <Link href="/map" passHref>
-              <Button component="a">View Map</Button>
+              <Button component="a">View On Map</Button>
             </Link>
           </Center>
         </Container>
